@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./lib/responsive.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/respon.css">
+</head>
+<body>
+<div class="grid wide">
+    <!-- ////////////////// -->
+    <!-- header -> menu -->
+    <header>
+        <div class="row">
+            <div class=" header__menu" >
+                <div class="header__menu-left">
+                    <img src="./images/logo-removebg.png" alt="" class="header__menu-left-logo-img">
+                </div>
+                
+                <div id="menu" class="col l-6 m-7 header__menu-center">
+                    <ul class="header__menu-center-list">
+                        <li class="header__menu-center-item"><a href="index.html" class="header__menu-center-link">
+                            Home
+                        </a></li>
+                        <li class="header__menu-center-item"><a href="./course.html" class="header__menu-center-link">
+                            Course
+                        </a></li>
+                        <li class="header__menu-center-item"><a href="./document.html" class="header__menu-center-link">
+                            Document
+                        </a></li>
+                    </ul>
+ 
+ 
+                </div>
+ 
+                <!-- menu-mobile  -->
+                <div class="nav__mobile-overlay"></div>
+ 
+                 <div  class="header__mobile-menu">
+                     <div class="burger__mobile-close">
+                         <i class="fas fa-times icon__mobile-close"></i>
+                     </div>
+ 
+                     <ul class="header__mobile-menu-list">
+                         <li class="header__mobile-menu-item"><a href="index.html" class="header__mobile-menu-link">
+                             <i class="fas fa-home icon__mobile-nav "></i>
+                             Home
+                         </a></li>
+                         <li class="header__mobile-menu-item"><a href="./course.html" class="header__mobile-menu-link">
+                             <i class="fas fa-book icon__mobile-nav "></i>
+                             Course
+                         </a></li>
+                         <li class="header__mobile-menu-item"><a href="./document.html" class="header__mobile-menu-link">
+                             <i class="fas fa-book-reader icon__mobile-nav "></i>
+                             Document
+                         </a></li>
+                         <li class="header__mobile-menu-item"><a href="#" class="header__mobile-menu-link">
+                             <i class="fas fa-sign-in-alt icon__mobile-nav "></i>
+                             Login
+                         </a></li>
+                         <li class="header__mobile-menu-item"><a href="#" class="header__mobile-menu-link">
+                             <i class="fas fa-sign-out-alt icon__mobile-nav "></i>
+                             Logout
+                         </a></li>
+                     </ul>
+                 </div>
+ 
+    
+                <div class="col l-2 m-3 header__menu-right">
+                    <div class="header__menu-right-login">
+                        <ul class="header__menu-right-list">
+                            <li class="header__menu-right-item header__menu-right-item-login"><a href="#" class="header__menu-right-link">
+                                Login 
+                            </a></li>
+                            <span class="separate"></span>
+                            <li class="header__menu-right-item"><a href="#" class="header__menu-right-link">
+                             <i class="fas fa-sign-out-alt icon__logout"></i>
+                                
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //////////// -->
+                <!-- mobile -->
+                <div class="header__menu-left-mobile col m-0">
+                    <img src="./images/logo-removebg.png" alt="" class="header__menu-left-logo-img-mobile">
+                </div>
+                <div id="burger" class="header__menu-right-mobile col m-0">
+                 <i class="fas fa-bars icon__mobile " id="nav"></i>
+                </div>
+    
+            </div>
+        </div>
+    </header>
+
+
+    <!-- /////////////////// -->
+    <!-- separate =>tiitle -->
+    <div class="row">
+        <div class="separate__title"> 
+            <h2 class="seperate__title-text">ALL Course</h2>
+        </div>
+    </div>
+
+
+
+    <!-- ///////////////////// -->
+    <!-- content => list course -->
+    <div class="content">
+        <div class="row  ">
+            
+
+                <div class="col l-4 m-6 c-12">
+                    <div class="content__course">
+                        <a href="#">
+                            <div class="content__course-imgs">
+                                <img src="./images/course-math11.png" alt="" class="content__course-img">
+                            </div>
+                            <h1 class="content__course-name">Math 11</h1>
+                        </a>
+                        <p class="content__course-description">Teacher: tran phuoc shroud</p>
+                        <p class="content__course-description">Chapter: 7 chapter</p>
+    
+                        <p class="content__course-price">Price: free</p>
+                        <div class="btn">
+                            <a href="./detail-course.html"  class="content__course-btn">Learn Now!</a>
+                        </div>
+                    </div>    
+                </div>
+    
+                <div class="col l-4 m-6 c-12">
+                    <div class="content__course">
+                        <a href="#">
+                            <div class="content__course-imgs">
+                                <img src="./images/course-math12.png" alt="" class="content__course-img">
+                            </div>
+                            <h1 class="content__course-name">Math 12</h1>
+                        </a>
+                            <p class="content__course-description">Teacher: tran phuoc shroud</p>
+                        <p class="content__course-description">Chapter: 12 chapter</p>
+    
+                        <p class="content__course-price">Price: free</p>
+                        <div class="btn">
+                            <a href="./detail-course.html"  class="content__course-btn">Learn Now!</a>
+                        </div>
+                    </div>    
+                </div>
+    
+                <div class="col l-4 m-6 c-12">
+                    <div class="content__course">
+                        <a href="#">
+                            <div class="content__course-imgs">
+                                <img src="./images/course-math12.png" alt="" class="content__course-img">
+                            </div>
+                            <h1 class="content__course-name">Master Javascript</h1>
+                        </a>
+                        <p class="content__course-description">Teacher: tran phuoc shroud</p>
+                        <p class="content__course-description">porject: 8 project small</p>
+    
+                        <p class="content__course-price">Price: 49$</p>
+                        <div class="btn">
+                            <a href="./detail-course.html"  class="content__course-btn">Learn Now!</a>
+                        </div>
+                    </div>    
+                </div>
+            
+
+        </div>
+    </div>
+
+
+
+     <!-- //////////////////// -->
+    <!-- footer -->
+    <footer>
+        <div class="row">
+            <div class="footer">
+                <p class="footer___text">Copyright © Trần Phước Thuận</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</div>
+<!-- ///////////////////// -->
+<!-- script -->
+<script src="./script.js"></script>
+</body>
+</html>

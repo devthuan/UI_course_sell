@@ -1,0 +1,77 @@
+/* /////////////////// */
+/* mobile */
+@media  (max-width: 767px) {
+    
+    .header__menu-right,
+    .header__menu-left {
+        display: none;
+    }
+    .header__menu-center {
+       display: none; 
+    }
+
+
+    .header__menu-left-mobile {
+        width: auto;
+        height: 60px;
+        margin: 0px 0px 5px 10px;
+    }
+    .header__menu-left-logo-img-mobile {
+        width: auto;
+        height: 60px;
+    }
+    .icon__mobile {
+        font-size: 35px;
+        padding: 0px 30px 0px 0px;
+        line-height: 60px;
+    }  
+    .banner__img {
+        width: 340px;
+        height: auto;
+    }
+    .content__document-text {
+        font-size: 18px;
+    }
+    
+    
+}
+
+
+
+/* ////////////////////// */
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .header__menu-center {
+        margin-right: 60px;
+    }
+    .banner__img {
+        width: 540px;
+        height: auto;
+    }
+    .header__menu-right-list {
+        height: 60px;
+    }
+    
+
+
+
+
+}
+
+/* //////////////////////  */
+/* desktop */
+@media (min-width: 1024px) {
+    
+}
+
+
+/* //////////////////////  */
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    .content__detail-name-course{
+        margin-top: 40px;
+    }
+
+    
+}
+

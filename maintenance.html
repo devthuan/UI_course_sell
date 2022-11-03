@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./lib/responsive.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/respon.css">
+    <!-- css -> maintenance -->
+    <style>
+
+                    /* ///////////////////////// */
+            /* css maintenance */
+            .maintenance {
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: var(--white);
+                text-align: center;
+                /* display: flex;
+                justify-content: center;
+                align-items: center; */
+            }
+                
+            .maintenance__img {
+                width: 450px;
+                height: auto;
+            }
+            .maintenance__text-title {
+                color: var(--danger);
+                margin-top: 4rem;
+            }
+            .maintenance__text {
+                color: var(--gray-dark);
+            }
+
+            @media (min-width: 768px) and (max-width: 1023px) {  
+                .maintenanc.maintenance-in {
+                    margin-top: 13rem;
+                }
+                .maintenance__img {
+                    width: 550px;
+                    height: auto;
+                }
+            }
+            @media  (max-width: 767px) { 
+                .maintenance-in {
+                    margin-top: 6rem;
+                }
+                .maintenance__img {
+                    width: 300px;
+                    height: auto;
+    }
+            }
+
+    </style>
+</head>
+<body>
+<div class="grid wide">
+    <div class="maintenance">
+        <div class="maintenance-in">
+            <h1 class=" maintenance__text-title">MAINTENANCE</h1>
+            <img class="maintenance__img" src="./images/maintenance.png" alt="">
+            <h2 class="maintenance__text">Sorry! we are under maintenance</h2>
+            <p class="maintenance__text">I will not take a long time till we get the error fixed. Thank you!</p>
+        </div>
+    </div>
+
+</div>
+
+    
+</body>
+</html> 

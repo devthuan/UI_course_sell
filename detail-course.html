@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./lib/responsive.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/respon.css">
+</head>
+<body>
+<div class="grid wide">
+    <!-- ////////////////// -->
+    <!-- header -> menu -->
+    <header>
+        <div class="row">
+            <div class=" header__menu" >
+                <div class="header__menu-left">
+                    <img src="./images/logo-removebg.png" alt="" class="header__menu-left-logo-img">
+                </div>
+                
+                <div id="menu" class="col l-6 m-7 header__menu-center">
+                    <ul class="header__menu-center-list">
+                        <li class="header__menu-center-item"><a href="index.html" class="header__menu-center-link">
+                            Home
+                        </a></li>
+                        <li class="header__menu-center-item"><a href="./course.html" class="header__menu-center-link">
+                            Course
+                        </a></li>
+                        <li class="header__menu-center-item"><a href="./document.html" class="header__menu-center-link">
+                            Document
+                        </a></li>
+                    </ul>
+ 
+ 
+                </div>
+ 
+                <!-- menu-mobile  -->
+                <div class="nav__mobile-overlay"></div>
+ 
+                 <div  class="header__mobile-menu">
+                     <div class="burger__mobile-close">
+                         <i class="fas fa-times icon__mobile-close"></i>
+                     </div>
+ 
+                     <ul class="header__mobile-menu-list">
+                         <li class="header__mobile-menu-item"><a href="index.html" class="header__mobile-menu-link">
+                             <i class="fas fa-home icon__mobile-nav "></i>
+                             Home
+                         </a></li>
+                         <li class="header__mobile-menu-item"><a href="./course.html" class="header__mobile-menu-link">
+                             <i class="fas fa-book icon__mobile-nav "></i>
+                             Course
+                         </a></li>
+                         <li class="header__mobile-menu-item"><a href="./document.html" class="header__mobile-menu-link">
+                             <i class="fas fa-book-reader icon__mobile-nav "></i>
+                             Document
+                         </a></li>
+                         <li class="header__mobile-menu-item"><a href="#" class="header__mobile-menu-link">
+                             <i class="fas fa-sign-in-alt icon__mobile-nav "></i>
+                             Login
+                         </a></li>
+                         <li class="header__mobile-menu-item"><a href="#" class="header__mobile-menu-link">
+                             <i class="fas fa-sign-out-alt icon__mobile-nav "></i>
+                             Logout
+                         </a></li>
+                     </ul>
+                 </div>
+ 
+    
+                <div class="col l-2 m-3 header__menu-right">
+                    <div class="header__menu-right-login">
+                        <ul class="header__menu-right-list">
+                            <li class="header__menu-right-item header__menu-right-item-login"><a href="#" class="header__menu-right-link">
+                                Login 
+                            </a></li>
+                            <span class="separate"></span>
+                            <li class="header__menu-right-item"><a href="#" class="header__menu-right-link">
+                             <i class="fas fa-sign-out-alt icon__logout"></i>
+                                
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //////////// -->
+                <!-- mobile -->
+                <div class="header__menu-left-mobile col m-0">
+                    <img src="./images/logo-removebg.png" alt="" class="header__menu-left-logo-img-mobile">
+                </div>
+                <div id="burger" class="header__menu-right-mobile col m-0">
+                 <i class="fas fa-bars icon__mobile " id="nav"></i>
+                </div>
+    
+            </div>
+        </div>
+    </header>
+
+
+    <!-- //////////////////// -->
+    <!-- content -->
+    <div class="row wide">
+        <div class="col l-8 m-12 c-12">
+            <div class="content__detail-view-video">
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/nH7gHCO3oik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col l-12 m-12 c-0">
+                <div class="link__media">
+                    <i class="fas fa-hand-point-right icon"></i>
+                    <a href="#" class="link__media-1">Video in YouTube</a>
+                    <a href="#" class="link__media-1">Document</a>
+                    <a href="#" class="link__media-1">BTVN</a>
+                    <a href="#" class="link__media-1">Giải BTVN</a>
+    
+                </div>
+            </div>
+        </div>
+        <div class="col l-4">
+            <div class="content__detail-list-video">
+                <h2 class="content__detail-name-course">list video</h2>
+                <!-- list video -->
+                <div class="list-video">
+                    <button class="accordion">topics 1</button>
+                    <div class="panel">
+                        <ul class="list-group">
+                            <li class="accordion__items  disabled">
+                                <h4 class="accordion__lesson">Bài 1: Đơn điệu hàm số</h4>
+                                <div class="accordion__item">
+                                    <a href="#" class="accordion__item-link">Video</a>
+                                    <a href="#" class="accordion__item-link">Document</a>
+                                    <a href="#" class="accordion__item-link">Assigment</a>
+                                    <a href="#" class="accordion__item-link">answer</a>
+                                </div> 
+                
+                            </li>
+                            <li class="accordion__items  disabled">
+                                <h4 class="accordion__lesson">Bài 2: Đơn điệu hàm số</h4>
+                                <div class="accordion__item">
+                                    <a href="#" class="accordion__item-link">Video</a>
+                                    <a href="#" class="accordion__item-link">Document</a>
+                                    <a href="#" class="accordion__item-link">Assigment</a>
+                                    <a href="#" class="accordion__item-link">answer</a>
+                                </div> 
+            
+                            </li>
+                            <li class="accordion__items  disabled">
+                                <h4 class="accordion__lesson">Bài 3: Đơn điệu hàm số</h4>
+                                <div class="accordion__item">
+                                    <a href="#" class="accordion__item-link">Video</a>
+                                    <a href="#" class="accordion__item-link">Document</a>
+                                    <a href="#" class="accordion__item-link">Assigment</a>
+                                    <a href="#" class="accordion__item-link">answer</a>
+                                </div> 
+            
+                            </li>
+                          
+                        </ul>
+                    </div>
+            
+                    <button class="accordion">topics 2</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">topics 2</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">topics 2</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">topics 2</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">topics 2</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    
+            
+                    <button class="accordion"> topics 3</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- //////////////////// -->
+    <!-- footer -->
+    <footer class="">
+        <div class="row">
+            <div class="footer">
+                <p class="footer___text">Copyright © Trần Phước Thuận</p>
+            </div>
+        </div>
+    </footer>
+    
+</div>
+<!-- /////////////////// -->
+<!-- script -->
+
+<script src="./script.js"></script>
+    
+</body>
+</html>
